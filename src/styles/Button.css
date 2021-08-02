@@ -1,0 +1,100 @@
+:root {
+  --btn-color-hover: #aeaeae;
+  --disabled-color: #e0e0e0;
+  --primary-color: #2962ff;
+  --primary-color-hover: #0039cb;
+  --secondary-color: #455a64;
+  --secondary-color-hover: #1c313a;
+  --danger-color: #d32f2f;
+  --danger-color-hover: #9a0007;
+}
+
+.btn {
+  border: none;
+  padding: 0.6em 1em;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  height: 2.5rem;
+  width: 6rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: var(--btn-color-hover);
+}
+
+.btn:disabled {
+  background-color: var(--disabled-color);
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.primary-btn:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.secondary-btn {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.secondary-btn:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+.danger-btn {
+  background-color: var(--danger-color);
+  color: #ffffff;
+}
+
+.danger-btn:hover {
+  background-color: var(--danger-color-hover);
+}
+
+.outline-btn {
+  background-color: #ffffff;
+  color: #2962ff;
+  border: 0.1rem solid #2962ff;
+}
+
+.outline-btn:hover {
+  background-color: #c9d8ff;
+}
+
+.text-btn {
+  border: none;
+  color: #2962ff;
+  background-color: #ffffff;
+}
+
+.text-btn:hover {
+  background-color: #c9d8ff;
+}
+
+/*small button*/
+.sm-btn {
+  height: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+/*medium button*/
+.md-btn {
+  height: 2.5rem;
+  width: 5rem;
+}
+
+/*large button*/
+.lg-btn {
+  height: 3rem;
+  width: 6rem;
+}
+
+/*text variant disabled button*/
+.text-disabled-btn:disabled {
+  background-color: white;
+  color: var(--btn-color-hover);
+}

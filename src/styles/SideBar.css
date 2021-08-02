@@ -1,0 +1,23 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: var(--aside-width);
+  background-color: var(--light-gray);
+  padding: var(--uniform-padding);
+}
+
+div.list {
+  margin-top: 10rem;
+}
+
+li.list-items {
+  list-style: none;
+  padding: var(--uniform-padding) 0;
+  cursor: pointer;
+  color: var(--text-color-secondary);
+}
+
+li.list-items:hover {
+  color: var(--text-color-primary);
+}

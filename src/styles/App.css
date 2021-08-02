@@ -1,0 +1,11 @@
+:root {
+  --light-gray: #eeebfbb4;
+  --text-color-primary: rgb(0, 0, 0);
+  --text-color-secondary: rgb(100, 100, 100);
+  --uniform-padding: 1rem;
+  --aside-width: 15rem;
+}
+
+div.App {
+  display: flex;
+}
