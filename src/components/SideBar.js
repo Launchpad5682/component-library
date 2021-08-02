@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/SideBar.css";
 
-const SideOptions = ["Colors", "Typography", "Spaces", "Buttons", "Grid"];
+const SideOptions = ["Colors", "Typography", "Inputs", "Buttons", "Grid"];
 const SideOptionClass = "list-items";
 
 function SideBar() {
