@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Button.css";
+import "../../styles/Button.css";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 
 function Button(props) {

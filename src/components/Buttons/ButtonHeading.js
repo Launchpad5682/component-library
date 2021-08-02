@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/ButtonHeading.css";
+import "../../styles/ButtonHeading.css";
 
 function ButtonHeading(props) {
   const text = props.text;

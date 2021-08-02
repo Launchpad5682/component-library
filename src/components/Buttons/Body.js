@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Body.css";
+import "../../styles/Body.css";
 import Button from "./Button";
 import ButtonHeading from "./ButtonHeading";
-import Footer from "./Footer";
+import Footer from "../Footer";
 
 function Body() {
   return (

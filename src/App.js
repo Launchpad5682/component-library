@@ -1,4 +1,4 @@
-import Body from "./components/Body";
+import Body from "./components/Buttons/Body";
 import SideBar from "./components/SideBar";
 import "./styles/App.css";
 
