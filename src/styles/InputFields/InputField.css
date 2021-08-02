@@ -1,0 +1,123 @@
+:root {
+  --full-width: 100%;
+  --input-field-width: 15rem;
+  --input-field-height: 4rem;
+  --focus-default-color: #2962ff;
+  --hover-default-color: #333333;
+  --default-color: #828282;
+  --error-color: #d32f2f;
+  --focus-error-color: #d32f2f;
+  --hover-error-color: #333333;
+}
+
+form {
+  display: flex;
+  flex-direction: column-reverse;
+  /* color: var(--gray-color); */
+}
+
+input {
+  box-sizing: border-box;
+  margin-top: 0.6rem;
+  padding: 1rem;
+  width: var(--input-field-width);
+  height: var(--input-field-height);
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.15rem solid var(--default-color);
+  color: var(--hover-default-color);
+}
+
+label {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--default-color);
+}
+
+.default-input > input {
+}
+
+.default-input > input:hover {
+  border-color: var(--hover-default-color);
+}
+
+.default-input > input:hover + label {
+  color: var(--hover-default-color);
+}
+
+.default-input > input:focus {
+  border-color: var(--focus-default-color);
+}
+
+.default-input > input:focus + label {
+  color: var(--focus-default-color);
+}
+
+.default-input > input:focus ~ p {
+  color: var(--focus-error-color);
+}
+
+/*Error Button*/
+.error-input > input {
+  border-color: var(--error-color);
+}
+
+.error-input > label {
+  color: var(--error-color);
+}
+
+.error-input > input:hover {
+  border-color: var(--hover-error-color);
+}
+.error-input > input:hover + label {
+  color: var(--hover-error-color);
+}
+.error-input > input:focus {
+  border-color: var(--focus-error-color);
+}
+.error-input > input:focus + label {
+  color: var(--focus-error-color);
+}
+.error-input > p {
+  color: var(--error-color);
+}
+
+/* disable button */
+.disabled-input > input {
+  border-color: rgb(184, 184, 184);
+}
+
+.disable-input > label {
+  color: rgb(184, 184, 184);
+}
+
+/*Start Icon Input*/
+.startIcon > input {
+  background: url("https://img.icons8.com/material-outlined/24/000000/phone.png")
+    no-repeat scroll 1rem 1rem;
+  padding-left: 3rem;
+}
+
+.endIcon > input {
+  background: url("https://img.icons8.com/material-sharp/24/000000/briefcase.png")
+    no-repeat scroll 1rem 1rem;
+  background-position-x: calc(100% - 1rem);
+}
+
+.full-width-input > input {
+  width: var(--full-width);
+}
+
+/*Multi-line Input*/
+.multiline-input > textarea {
+  box-sizing: border-box;
+  margin-top: 0.6rem;
+  padding: 1rem;
+  width: var(--input-field-width);
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.15rem solid var(--default-color);
+  color: var(--hover-default-color);
+}

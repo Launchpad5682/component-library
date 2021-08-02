@@ -1,21 +1,23 @@
 article {
+  margin-left: var(--aside-width);
   width: 100%;
   background-color: white;
   padding: var(--uniform-padding) 5rem;
 }
 
-span{
-    margin-right: 2rem;
-    display: inline-block;
+span {
+  margin-right: 2rem;
+  display: inline-block;
 }
 
-div.btn-class{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
-}
-
-div.btn-class > div{
+div.btn-class {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+div.btn-class > div {
+  display: flex;
+  padding: 1rem 0;
 }

@@ -1,0 +1,4 @@
+footer {
+  margin-left: var(--footer-margin);
+  margin-bottom: 2rem;
+}

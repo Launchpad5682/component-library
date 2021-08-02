@@ -1,0 +1,9 @@
+div.inputs-class {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+span {
+  display: inline-block;
+}

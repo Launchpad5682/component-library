@@ -4,8 +4,14 @@
   --text-color-secondary: rgb(100, 100, 100);
   --uniform-padding: 1rem;
   --aside-width: 15rem;
+  --footer-margin: 20rem;
 }
 
 div.App {
   display: flex;
+  flex-direction: column;
+}
+
+html {
+  overflow-y: scroll;
 }
